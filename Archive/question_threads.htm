@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Ask&Find</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+<script>
+function like(id) {
+	liked = document.getElementById("liked" + id);
+	obj = document.getElementById("td" + id);
+	if (liked.innerText != "liked") {
+		num = parseInt(obj.innerText) + 1;
+		obj.innerText = num;
+		liked.innerText = "liked";
+		obj.classList.add("active");
+	} else {
+		num = parseInt(obj.innerText) - 1;
+		obj.innerText = num;
+		liked.innerText = "";
+		obj.classList.remove("active");
+	}
+}
+</script>
+
+</head>
+
+<body><font face="Arial">
+	<a href="home.htm"><img src="back_btn.jpg" class="back_btn"></a>
+	<div class="container">
+	<h1 align="center">Ask & Find</h1>
+
+	<form action="answer.htm"><input type="hidden" name="question_id" value="0" />
+		<input type="submit" value="Answer it!" name="submit" /></form>
+	<h2>Question: How does this work</h2>
+	<p>Description of question</p>
+	<img class="question_pic" src="test.jpg"/>
+	</div>
+
+	<div class="t-container">
+		<table class="thread">
+			<tr>
+				<td><font size="5">Best Answer: </font></td>
+				<td align="right" class="liked" id="liked1">liked</td>
+				<td class="like_btn_container" align="right"><img src="like_btn.png" class="like_btn" onclick="like(this.id)" id="1"></td>
+				<td class="likes active" id="td1"> 23</td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					This is the inside
+					<img class="thread_pic" src="test.jpg" />
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="t-container">
+		<table class="thread">
+			<tr>
+				<td><font size="5">Answer #2: </font></td>
+				<td align="right" class="liked" id="liked2"></td>
+				<td class="like_btn_container" align="right"><img src="like_btn.png" class="like_btn" onclick="like(this.id)" id="2"></td>
+				<td class="likes" id="td2"> 20</td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					This is the inside
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="t-container">
+		<table class="thread">
+			<tr>
+				<td><font size="5">Answer #3: </font></td>
+				<td align="right" class="liked" id="liked3"></td>
+				<td class="like_btn_container" align="right"><img src="like_btn.png" class="like_btn" onclick="like(this.id)" id="3"></td>
+				<td class="likes" id="td3"> 5</td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					This is the inside
+					<img class="thread_pic" src="test.jpg" />
+				</td>
+			</tr>
+		</table>
+	</div>
+</font>
+</body>
+
+</html>

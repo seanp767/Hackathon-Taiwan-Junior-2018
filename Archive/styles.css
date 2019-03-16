@@ -1,0 +1,104 @@
+div.container {
+	margin:20 auto;
+	width:80%;
+}
+div.t-container {
+	margin: 20px auto;
+	width:70%;
+}
+div.sidebar {
+	width: 18%;
+	height: 100%;
+	position: absolute;
+	display: none;
+	top: 0;
+	right: 0;
+	background-color: rgb(50, 50, 50);
+	color: white;
+	padding: 15px;
+}
+
+table {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+table.thread {
+	width: 100%;
+}
+table.profile_container {
+	width: 80%;
+}
+
+td {
+	padding: 5px;
+	vertical-align: center;
+}
+
+td.solved {
+	text-align: center;
+	width: 50px !important;
+}
+td.date {
+	width: 90px !important;
+}
+td.user {
+	width: 90px !important;
+}
+td.title {
+	width: 60%;
+}
+td.likes {
+	width: 30px;
+	font-size: 18px;
+}
+td.active {
+	color: rgb(0, 10, 200);
+}
+td.like_btn_container {
+	width: 20px;
+}
+td.liked {
+	width: 20px;
+	font-size: 14px;
+	color:rgb(100, 100, 100);
+}
+
+img.like_btn {
+	width:20px;
+	cursor: pointer;
+}
+img.back_btn {
+	width:60px;
+	position: absolute;
+	cursor: pointer;
+}
+img.profile {
+	width:200px;
+}
+img.sidebar_btn {
+	width:35px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index:2;
+	cursor: pointer;
+}
+img.question_pic, img.thread_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_content {
+	width: 200px;
+	font-size: 16px;
+	height: 18px;
+}
+
+input.go_btn {
+	width: 170px !important;
+}
+
+ul {
+	list-style: none;
+}
