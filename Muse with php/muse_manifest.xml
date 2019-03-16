@@ -1,0 +1,51 @@
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="solved.com" resolutions="1x" timestamp="1531313784276">
+  <folder name="css">
+    <file name="site_global.css" crc="4275521114"/>
+    <file name="master_profile_master.css" crc="493358629" ref="profile_page"/>
+    <file name="master_a_master.css" crc="328925755" ref="index:register_page"/>
+    <file name="master_b_master.css" crc="3887285136" ref="your_questions:ask:home:unsolved-page:solve"/>
+    <file name="index.css" crc="4282809176" ref="index"/>
+    <file name="your_questions.css" crc="4203700552" ref="your_questions"/>
+    <file name="profile_page.css" crc="4288422163" ref="profile_page"/>
+    <file name="ask.css" crc="484584114" ref="ask"/>
+    <file name="register_page.css" crc="3877556537" ref="register_page"/>
+    <file name="home.css" crc="292061251" ref="home"/>
+    <file name="unsolved-page.css" crc="419840933" ref="unsolved-page"/>
+    <file name="solve.css" crc="4019065674" ref="solve"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:register_page:home:ask:profile_page:unsolved-page:your_questions:solve"/>
+    <file name="museutils.js" crc="340535759" ref="index:register_page:home:ask:profile_page:unsolved-page:your_questions:solve"/>
+    <file name="whatinput.js" crc="86476730" ref="index:register_page:home:ask:profile_page:unsolved-page:your_questions:solve"/>
+    <file name="museconfig.js" crc="310584261" ref="index:register_page:home:ask:profile_page:unsolved-page:your_questions:solve"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:profile_page"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:register_page:home:ask:profile_page:unsolved-page:your_questions:solve"/>
+    <file name="require.js" crc="7928878" ref="index:register_page:home:ask:profile_page:unsolved-page:your_questions:solve"/>
+  </folder>
+  <folder name="images">
+    <file name="web-designer-pune-background.jpg" crc="4210850889" ref="index:profile_page">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 640x64059x59.jpg" crc="3781660648" seo="true" ref="home:solve">
+      <caption webpage="solve" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="close-button.png" crc="3964942661" seo="true" ref="ask">
+      <caption webpage="ask" alt=""/>
+    </file>
+    <file name="61449_poster_.png" crc="3902089025" seo="true" ref="profile_page">
+      <caption webpage="profile_page" alt=""/>
+    </file>
+    <file name="pasted image 640x640.jpg" crc="4172769994" seo="true" ref="profile_page">
+      <caption webpage="profile_page" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="122875571" seo="true" mt="1531280646557" redirect="true"/>
+  <file name="register_page.html" crc="307528888" seo="true" mt="1531280646557" redirect="true"/>
+  <file name="home.html" crc="4223337625" seo="true" mt="1531312148992" redirect="true"/>
+  <file name="ask.html" crc="4177935250" seo="true" mt="1531312148992" redirect="true"/>
+  <file name="profile_page.html" crc="57677703" seo="true" mt="1531280656626" redirect="true"/>
+  <file name="unsolved-page.html" crc="298634892" seo="true" mt="1531312148992" redirect="true"/>
+  <file name="your_questions.html" crc="3826145477" seo="true" mt="1531312148992" redirect="true"/>
+  <file name="solve.html" crc="25489746" seo="true" mt="1531313755215" redirect="true"/>
+</manifest>

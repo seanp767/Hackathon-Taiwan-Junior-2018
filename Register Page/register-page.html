@@ -1,0 +1,101 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Page</title>
+	<style>
+	#main-wrapper{
+	width:500px;
+	margin: 0 auto;
+	background:white;
+	padding:5px;
+	border-radius: 10px;
+	border:2px solid #2c3e50;
+}
+
+.myform{
+	width:450px;
+	margin:0 auto;
+
+}
+.inputvalues{
+	width:430px;
+	margin:0 auto;
+	padding:5px;
+}
+#Login_btn{
+	margin-top: 10px;
+	background-color:#27ae60;
+	padding:5px;
+	color: white;
+	width:100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#register_btn{
+	margin-bottom:10px;
+	margin-top: 10px;
+	background-color:#3498db;
+	padding:5px;
+	color: white;
+	width:100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#Signup_btn{
+	margin-top: 10px;
+	background-color:#3498db;
+	padding:5px;
+	color: white;
+	width:100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#logout_btn{
+	margin-top: 10px;
+	background-color:#3498db;
+	padding:5px;
+	color: white;
+	width:30%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+	</style>
+</head>
+<body style="background-color:#bdc3c7">
+	<div id="main-wrapper">
+		<center>
+			
+				
+		
+	
+		<form class="myform" action="../Login HTML/register.php" method="post">
+			<label><b>Email:</label><br>
+			<input name="email" type="email" class="inputvalues" placeholder="Email" required><br>
+			<label><b>Username:</label><br>
+			<input name="username" type="text" class="inputvalues" placeholder="Username" required><br>
+			<label><b>Password:</label><br>
+			<input name="password" type="password" class="inputvalues" placeholder="Password" required><br>
+			<label><b>Confirm Password:</label><br>
+			<input name="cpassword" type="password" class="inputvalues" placeholder="Confirm Password" required><br>
+			<label><b>Educational Qualification:</b></label>
+			<select name="qualification" class="qualification">
+				<option value="university">University</option>
+				<option value="highschool">High School</option>
+				<option value="elementary">Elementary School</option>
+			</select><br>
+
+			<label><b>School:</b></label><br>
+			<input name="school" type="text" class="inputvalues" placeholder="School Name" required><br>
+			<input name="submit_btn" type="submit" id="Signup_btn" value="Sign up"><br>
+			<a href="../Login HTML/index.php"><input type="button" id="back_btn" value="Back"></a>
+		</form>
+		
+		</center>
+	</div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+	#main-wrapper{
+	width:500px;
+	margin: 0 auto;
+	background:white;
+	padding:5px;
+	border-radius: 10px;
+	border:2px solid #2c3e50;
+}
+
+.myform{
+	width:450px;
+	margin:0 auto;
+
+}
+.inputvalues{
+	width:430px;
+	margin:0 auto;
+	padding:5px;
+}
+#Login_btn{
+	margin-top: 10px;
+	background-color:#27ae60;
+	padding:5px;
+	color: white;
+	width:100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#register_btn{
+	margin-bottom:10px;
+	margin-top: 10px;
+	background-color:#3498db;
+	padding:5px;
+	color: white;
+	width:100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#Signup_btn{
+	margin-top: 10px;
+	background-color:#3498db;
+	padding:5px;
+	color: white;
+	width:100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#logout_btn{
+	margin-top: 10px;
+	background-color:#3498db;
+	padding:5px;
+	color: white;
+	width:30%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+	</style>
+</head>
+
+<body>
+	<form method="post" >
+		<h1 style="text-decoration:bold">Username asks:</h1><br>
+		<input type="text" style="border:1px solid black" placeholder="What is your question?" required><br><br>
+		Description:<br>
+		<textarea name="description" rows="5" cols="40" placeholder="Describe your question in more detail." style="border:1px solid black" required></textarea><br>
+		Subject:<br>
+		<input list="subjects" style="border:1px solid black" required>
+		<datalist id="subjects">
+    		<option value="Art">
+   			<option value="Biology">
+    		<option value="Chemistry">
+    		<option value="Computer Science">
+			<option value="Economics">
+			<option value="Electric Circuits">
+			<option value="Film">
+			<option value="Foreign Language">
+			<option value="Geography">
+			<option value="History">
+			<option value="Mathematics">
+			<option value="Music">
+			<option value="PE">
+			<option value="Physics">
+			<option value="Psychology">
+			<option value="Public Speaking">
+			<option value="Social Studies">
+			<option value="Writing">
+			<option value="Misc.">
+  </datalist><br><br><br>
+		*optional*<br>
+		Textbook ISBN:<br>
+		    <input type="text" name="ISBN" style="border:1px solid black"><br>
+		 Page Number:<br>
+		    <input type="text" name="page-number" style="border:1px solid black"><br>
+		Question Number:<br>
+		    <input type="text" name="q-number" style="border:1px solid black"><br><br>
+		Upload Image:<br>
+		<input type="file" name="pic" accept="image/*">
+		
+		
+		
+		
+	</form>
+</body>
+</html>

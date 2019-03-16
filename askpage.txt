@@ -1,0 +1,44 @@
+<body>
+	<form method="post" >
+		<h1 style="text-decoration:bold">Username asks:</h1><br>
+		<input type="text" style="border:1px solid black" placeholder="What is your question?" required><br><br>
+		Description:<br>
+		<textarea name="description" rows="5" cols="40" placeholder="Describe your question in more detail." style="border:1px solid black" required></textarea><br>
+		Subject:<br>
+		<input list="subjects" style="border:1px solid black" required>
+		<datalist id="subjects">
+    		<option value="Art">
+   			<option value="Biology">
+    		<option value="Chemistry">
+    		<option value="Computer Science">
+			<option value="Economics">
+			<option value="Electric Circuits">
+			<option value="Film">
+			<option value="Foreign Language">
+			<option value="Geography">
+			<option value="History">
+			<option value="Mathematics">
+			<option value="Music">
+			<option value="PE">
+			<option value="Physics">
+			<option value="Psychology">
+			<option value="Public Speaking">
+			<option value="Social Studies">
+			<option value="Writing">
+			<option value="Misc.">
+  </datalist><br><br><br>
+		*optional*<br>
+		Textbook ISBN:<br>
+		    <input type="text" name="ISBN" style="border:1px solid black"><br>
+		 Page Number:<br>
+		    <input type="text" name="page-number" style="border:1px solid black"><br>
+		Question Number:<br>
+		    <input type="text" name="q-number" style="border:1px solid black"><br><br>
+		Upload Image:<br>
+		<input type="file" name="pic" accept="image/*">
+		
+		
+		
+		
+	</form>
+</body>
